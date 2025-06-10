@@ -3,6 +3,7 @@ import OneCustomerInfoCard from "@/app/components/one_customer_info_card.jsx";
 import fetchCustomer from "./fetchCustomer";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Suspense} from "react"
 
 export default function ConfirmPageWrapper() {
   return (
