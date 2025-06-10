@@ -12,7 +12,7 @@ export default function ConfirmPageWrapper() {
   );
 }
 
-export default function ConfirmPage() {
+function ConfirmPage() {
   const router = useRouter();
   const customer_id = useSearchParams().get("customer_id");
   const [customer, setCustomer] = useState(null);
